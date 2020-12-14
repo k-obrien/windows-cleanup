@@ -1,5 +1,5 @@
-﻿# Allow script execution:
-# PS> Set-ExecutionPolicy RemoteSigned -Force
+﻿# To run script:
+# PS> PowerShell.exe -ExecutionPolicy Bypass -File cleanup.ps1
 
 # Check for administrative privileges
 If (-Not ([Security.Principal.WindowsPrincipal]`
